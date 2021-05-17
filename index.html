@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta  charset="utf-8">
+    <title>Найди карту с багом!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts.css">
+    <link  href="style.css"  rel="stylesheet">
+  </head>
+  <body>
+    <div class = "wrapper" id="wrapper">
+      <h1 class = "title">Выберите уровень сложности:</h1>
+      <p class = "text">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</p>
+      <nav class="level-menu">
+        <a class="level__item level__item_active" id="easy">Простой</a>
+        <a class="level__item" id="middle">Средний</a>
+        <a class="level__item" id="hard">Сложный</a>
+      </nav>
+      <button class="level__button" id="button" href="#">Начать игру</button>
+      <div class = "cards__board"></div>
+    </div>
+    <div></div>
+    <script src="script.js"></script>
+  </body>
+</html>
